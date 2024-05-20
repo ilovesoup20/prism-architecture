@@ -6,7 +6,11 @@ import _2024_05_19_03.ExecutionMode;
 import _2024_05_19_03.LeafAction;
 import _2024_05_19_03.actions.InventoryCheckAction;
 import _2024_05_19_03.actions.OrderValidationAction;
+import guru.nidi.graphviz.engine.Format;
+import guru.nidi.graphviz.engine.Graphviz;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -31,6 +35,16 @@ public class Main {
                     System.out.println("Final action");
                 }))
                 .build();
+
+        // Generate the visualization
+        String dot = chain.visualize();
+        System.out.println(dot);
+//        try {
+//            Graphviz.fromString(dot).render(Format.PNG).toFile(new File("/tmp/processing-chain.png"));
+//            System.out.println("Visualization generated: processing-chain.png");
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
 
         OrderContext orderContext = new OrderContext();
         orderContext.setOrder(new Order());

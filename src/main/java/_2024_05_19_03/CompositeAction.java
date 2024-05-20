@@ -46,4 +46,16 @@ public class CompositeAction <T extends BaseContext> extends AbstractAction<T> {
         passToNext(context);
     }
 
+    @Override
+    public void visualize(StringBuilder sb, String parentId) {
+        String nodeId = Integer.toHexString(System.identityHashCode(this));
+        sb.append(nodeId).append(" [label=\"").append(this.getClass().getSimpleName()).append(" - ").append(executionMode).append("\"];\n");
+        if (parentId != null) {
+            sb.append(parentId).append(" -> ").append(nodeId).append(";\n");
+        }
+        for (Action<T> child : children) {
+            child.visualize(sb, nodeId);
+        }
+        super.visualize(sb, nodeId);
+    }
 }

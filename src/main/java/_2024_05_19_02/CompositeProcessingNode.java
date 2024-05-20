@@ -23,7 +23,7 @@ public class CompositeProcessingNode<T extends BaseContext> extends AbstractProc
     }
 
     @Override
-    public void process(Context<T> context) {
+    public void process(T context) {
         if (executionMode == ExecutionMode.CONCURRENT) {
             List<Future<?>> futures = new ArrayList<>();
             for (ProcessingNode<T> child : children) {

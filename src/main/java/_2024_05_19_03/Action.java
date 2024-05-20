@@ -5,4 +5,7 @@ public interface Action<T extends BaseContext> {
     void process(T context);
 
     void setNext(Action<T> nextNode);
+
+    void visualize(StringBuilder sb, String parentId);
+
 }

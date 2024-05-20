@@ -5,57 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f5b5902-5fc0-411e-b29f-7dd6facb0782" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_01/AbstractProcessingNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_01/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_01/OrderValidationNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_01/ProcessingChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_01/ProcessingChainBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_01/ProcessingNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/AbstractProcessingNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/BaseContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/CompositeProcessingNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/ExecutionMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/LeafProcessingNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/ProcessingChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/ProcessingChainBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/ProcessingNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/impl/InventoryCheckAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/impl/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/impl/OrderContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/impl/OrderProcessingSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/impl/OrderValidationAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/impl/PaymentProcessingAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/AbstractAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/ActionChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/ActionChainBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/BaseContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/CompositeAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/ExecutionMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/LeafAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/actions/InventoryCheckAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/actions/OrderValidationAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/actions/PaymentProcessingAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/impl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/impl/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/impl/OrderContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/nodes/InventoryCheckNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/AbstractTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/ActionTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/BaseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/CompositeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/CompositeTaskAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/ExecutionMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/TaskAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/TaskChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/TaskProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/impl/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/impl/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/impl/OrderContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation/impl/OrderProcessingTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/AbstractTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/ActionTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/BaseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/CompositeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/ExecutionMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/GenericContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/TaskChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/TaskChainBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/actions/InventoryCheckAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/actions/OrderValidationAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/actions/PaymentProcessingAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/impl/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/impl/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/impl/OrderContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_01/CompositeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_01/CompositeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_01/SimpleTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_01/SimpleTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_01/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_01/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_01/TaskExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_01/TaskExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_01/TaskPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_01/TaskPredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_01/TaskVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_01/TaskVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_02/domain/model/BusinessLogicNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_02/domain/model/BusinessLogicNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_02/domain/model/CompositeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_02/domain/model/CompositeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_02/domain/model/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_02/domain/model/Logic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_02/domain/model/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_02/domain/model/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_02/domain/model/Predicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_02/domain/model/Predicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_02/domain/model/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_02/domain/model/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_240518_02/domain/service/BusinessLogicVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_18_02/domain/service/BusinessLogicVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/AbstractProcessingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/AbstractProcessingNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/CompositeProcessingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/CompositeProcessingNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/LeafProcessingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/LeafProcessingNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/ProcessingChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/ProcessingChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/ProcessingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/ProcessingNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/impl/OrderProcessingSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_02/impl/OrderProcessingSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/AbstractAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/AbstractAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/ActionChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/ActionChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/CompositeAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/CompositeAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/impl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_05_19_03/impl/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +61,46 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="prism" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="prism" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="prism" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="prism" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -91,14 +121,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/charleschong/dev/java-practice/prism/src/main/java/_2024_05_19_03/impl"
+    "last_opened_file_path": "/Users/charleschong/dev/java-practice/prism/src/main/java/_2024_05_19_05_input_output/impl",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.39655173"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/_2024_05_19_05_input_output/impl" />
+      <recent name="$PROJECT_DIR$/src/main/java/_2024_05_19_04_annotation" />
       <recent name="$PROJECT_DIR$/src/main/java/_2024_05_19_03/impl" />
       <recent name="$PROJECT_DIR$/src/main/java/_2024_05_19_03/actions" />
     </key>
@@ -109,7 +148,7 @@
       <recent name="functional" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ActionChain">
+  <component name="RunManager" selected="Application.OrderProcessingSetup">
     <configuration name="ActionChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2024_05_19_03.ActionChain" />
       <module name="prism.main" />
@@ -123,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024_05_18_01.Main" />
+    <configuration name="OrderProcessingSetup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024_05_19_02.impl.OrderProcessingSetup" />
       <module name="prism.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2024_05_18_01.*" />
+          <option name="PATTERN" value="_2024_05_19_02.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,10 +175,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_2024_05_19_03.impl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024_05_19_03.impl.Main" />
+      <module name="prism.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2024_05_19_03.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2024_05_19_04_annotation.impl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024_05_19_04_annotation.impl.Main" />
+      <module name="prism.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2024_05_19_04_annotation.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prism" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderProcessingSetup" />
+        <item itemvalue="Application._2024_05_19_04_annotation.impl.Main" />
+        <item itemvalue="Gradle.prism" />
+        <item itemvalue="Application._2024_05_19_03.impl.Main" />
         <item itemvalue="Application.ActionChain" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

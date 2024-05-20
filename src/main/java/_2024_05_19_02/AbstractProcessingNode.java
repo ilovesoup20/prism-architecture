@@ -8,7 +8,7 @@ public abstract class AbstractProcessingNode<T extends BaseContext> implements P
         this.nextNode = nextNode;
     }
 
-    public void passToNext(Context<T> context) {
+    public void passToNext(T context) {
         if (nextNode != null) {
             nextNode.process(context);
         }

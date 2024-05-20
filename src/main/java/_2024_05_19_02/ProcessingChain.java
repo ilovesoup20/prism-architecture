@@ -9,7 +9,7 @@ public class ProcessingChain<T extends BaseContext> {
         this.startNode = startNode;
     }
 
-    public void process(Context<T> context) {
+    public void process(T context) {
         startNode.process(context);
     }
 }
