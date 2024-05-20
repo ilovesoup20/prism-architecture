@@ -1,9 +1,6 @@
-package _20240519_02;
+package _2024_05_19_02;
 
-import _20240519_01.Context;
-import _20240519_01.ProcessingNode;
-
-public abstract class AbstractProcessingNode<T> implements ProcessingNode<T> {
+public abstract class AbstractProcessingNode<T extends BaseContext> implements ProcessingNode<T> {
     protected ProcessingNode<T> nextNode;
 
     @Override

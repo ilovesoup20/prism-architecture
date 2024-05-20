@@ -1,7 +1,7 @@
-package _20240518_02.domain.service;
+package _2024_05_18_02.domain.service;
 
-import _20240518_02.domain.model.BusinessLogicNode;
-import _20240518_02.domain.model.Visitor;
+import _2024_05_18_02.domain.model.BusinessLogicNode;
+import _2024_05_18_02.domain.model.Visitor;
 
 public class BusinessLogicVisitor implements Visitor {
     @Override

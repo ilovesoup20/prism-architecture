@@ -1,4 +1,4 @@
-package _20240519_01;
+package _2024_05_19_01;
 
 public abstract class AbstractProcessingNode<T> implements ProcessingNode<T> {
     protected ProcessingNode<T> nextNode;
